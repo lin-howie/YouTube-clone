@@ -1,0 +1,38 @@
+p {
+  font-family: roboto;
+  width: 300px;
+}
+
+.video-stats,
+.video-author,
+.video-discription {
+  line-height: 24px;
+}
+
+.video-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.video-stats {
+  margin-top: 0px;
+}
+
+.apple-text {
+  width: auto;
+  margin-bottom: 50px;
+  background-color: rgb(227, 65, 64);
+  color: white;
+  text-align: center;
+  padding: 18px;
+
+}
+
+.span-example {
+  margin-left: 12px;
+}
+
+.span-example:hover {
+  text-decoration: underline;
+}

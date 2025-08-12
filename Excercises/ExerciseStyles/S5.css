@@ -1,0 +1,21 @@
+p {
+  font-family: arial;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.stock-price {
+  font-size: 32px;
+}
+
+.gray {
+  color: gray;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}

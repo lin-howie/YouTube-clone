@@ -1,0 +1,63 @@
+    .entire-inbox {
+      display: flex;
+      flex-direction: column;
+      font-family: roboto, arial;
+      border: none;
+      border-radius: 2px;
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+      margin-left: 30px;
+      margin-top: 40px;
+      width: 400px;
+    }
+
+    .all-inboxes {
+      padding-left: 8px;
+      padding-top: 8px;
+      padding-bottom: 20px;
+      font-size: 14px;
+      color: gray;
+    }
+
+    .inbox-preview-grid {
+      display: grid;
+      grid-template-columns: 50px 1fr;
+      column-gap: 10px;
+      padding-left: 12px;
+      padding-right: 12px;
+      margin-bottom: 20px;
+    }
+
+    .profile-image-frame {
+      width: 50px;
+      padding-top: 5px;
+    }
+
+    .profile-image {
+      width: 100%;
+      border-radius: 50px;
+    }
+
+    .info-title {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .info-title-name {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .info-title-time {
+      color: gray;
+    }
+
+    .info-subject {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .info-content {
+      color: gray;
+    }
