@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!-- finish 12 videos and link the videos -->
+<html>
+
+<head>
+  <title>YouTube.com Clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="left-section">
+      <img src="icons/hamburger-menu.svg" class="hamburger-menu">
+      <img src="icons/youtube-logo.svg" class="youtube-logo">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">
+          Search
+        </div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">
+          Search with your voice
+        </div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">
+          Create
+        </div>
+      </div>
+      <div class="youtube-apps-icon-container">
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="tooltip">
+          YouTube apps
+        </div>
+      </div>
+      <div class="notification-icon-container">
+        <img class="notification-icon" src="icons/notifications.svg">
+        <div class="notification-count">
+          3
+        </div>
+        <div class="tooltip">
+          Notifications
+        </div>
+      </div>
+      <img class="my-channel-icon" src="creators/my-channel.jpg">
+    </div>
+  </header>
+
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/youtube-music.svg">
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg">
+      <div>Library</div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail1.avif">
+          <div class="video-time">14:05</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="video-image">
+            <img class="creator-image" src="creators/creator1.jpg">
+          </div>
+          <div class="video-text">
+            <p class="video-title">
+              no dart goblin
+            </p>
+            <p class="video-author">
+              Ken &check;
+            </p>
+            <p class="video-stats">
+              209K views &middot; 10 hours ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail2.avif">
+          <div class="video-time">11:25</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="video-image">
+            <img class="creator-image" src="creators/creator2.jpg">
+          </div>
+          <div class="video-text">
+            <p class="video-title">
+              Learn 1 Card Trick, 2 Versions, Beginner VS Pro (Card Trick Tutorial)
+            </p>
+            <p class="video-author">
+              Jeremy Tan &check;
+            </p>
+            <p class="video-stats">
+              26K views &middot; 3 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail3.avif">
+          <div class="video-time">1:09:58</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="video-image">
+            <img class="creator-image" src="creators/creator3.jpg">
+          </div>
+          <div class="video-text">
+            <p class="video-title">
+              React 19 Course (2025) - Lesson 5: Proper React Setup
+            </p>
+            <p class="video-author">
+              SuperSimpleDev &check;
+            </p>
+            <p class="video-stats">
+              6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/TgSD_Q0adBk?si=pGaNp1IHcmRgWTWG">
+            <img class="thumbnail" src="thumbnails/thumbnail4.avif">
+          </a>
+          <div class="video-time">26:07</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="video-image">
+            <img class="creator-image" src="creators/creator4.jpg">
+          </div>
+          <div class="video-text">
+            <p class="video-title">
+              MAGNUS CARLSEN WINS A HISTORIC CHAMPIONSHIP!!!!!
+            </p>
+            <p class="video-author">
+              GothamChess &check;
+            </p>
+            <p class="video-stats">
+              222K views &middot; 6 hours ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail5.avif">
+          <div class="video-time">4:10</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="video-image">
+            <img class="creator-image" src="creators/creator5.jpg">
+          </div>
+          <div class="video-text">
+            <p class="video-title">
+              programming everyday until I graduate college | day 173
+            </p>
+            <p class="video-author">
+              boat
+            </p>
+            <p class="video-stats">
+              95 views &middot; 1 day ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail6.webp">
+          <div class="video-time">13:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="video-image">
+            <img class="creator-image" src="creators/creator6.jpeg">
+          </div>
+          <div class="video-text">
+            <p class="video-title">
+              The SECRET to Super Human STRENGTH
+            </p>
+            <p class="video-author">
+              ThenX
+            </p>
+            <p class="video-stats">
+              20M views &middot; 3 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>
